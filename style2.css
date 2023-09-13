@@ -1,0 +1,256 @@
+/* Reset all
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* style */
+
+body {
+        background-color: rgb(60, 126, 250);
+        font: 16px/28px fantasy;
+		margin: auto;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		background-image: url(img/bg1.png);
+		background-size: 50vw;
+		background-attachment: fixed;
+}
+
+.HomeBar {
+	height: 5vmax;
+	position: fixed;
+	left: 0vw;
+	right: 0vw;
+	background-color: rgb(91, 181, 255);
+	padding: 0.377vw;
+	box-sizing: border-box;
+	border-bottom: 0.5vw solid rgb(22, 34, 141);
+    z-index: 5;
+}
+
+.HomeBar .tt {
+	font-size: 3.7735849056603774vw;
+	font-weight: bold;
+	position: absolute;
+}
+
+
+.HomeBar a {
+	text-decoration: none;
+	color: black;
+}
+
+.HomeBar .tt a {
+	color: rgb(252, 97, 97);
+	display: block;
+	margin: 0.7vw 1.7vw;
+	position: fixed;
+	-webkit-text-stroke: 1px rgb(0, 0, 0);
+    transition: 0.3s ease-in-out;
+}
+
+.HomeBar .tt a:hover {
+	color: rgb(139, 14, 14);
+	display: block;
+    transition: 0.3s ease-in-out;
+}
+.HomeBar a {
+	text-decoration: none;
+	color: black;
+}
+.HomeBar a:hover{
+	color: aliceblue;
+
+}
+.tag a:hover{
+    transition: 0.3s ease-in-out;
+}
+.HomeBar ul {
+	position: absolute;
+}
+.HomeBar .vid {
+	margin-top: 3.1vw;
+}
+.HomeBar .pp {
+	margin-left: 27.6vw;
+}
+.HomeBar .ll {
+	padding-left: 3.2vw;
+}
+.HomeBar .mm {
+	padding-left: 3.2vw;
+}
+.HomeBar .kk {
+	padding-left: 3.2vw;
+}
+
+.HomeBar ul li {
+	display: inline-block;
+	font-size: 2.8vw;
+}
+.tag {
+	font-size: 2.2vw;
+	position: absolute;
+	right: 3.2vw;
+	display: flex;
+	top: 1.2vw;
+	max-width: 12vw;
+	max-height: 12vw;
+    transition: 0.3s ease-in-out;
+}
+
+.imgig {
+	position: absolute;
+	right: 15.8vw;
+	max-height: 3.5vw;
+	max-width: 3.5vw;
+	display: flex;
+}
+.container {
+    height: 70vw;
+	width: 60.377vw;
+	margin: 0px auto;
+	background-color: rgb(255, 255, 255);
+	text-align: justify;
+	font-family: serif;
+}
+.Vtuber {
+	margin-top: 5vw;
+}
+.vrber {
+	float: left;
+}
+.Vruber {
+    text-decoration: none;
+    color: black;
+}
+
+.Vruber h1 {
+	padding: 1.4vw;
+	text-align: left;
+	font-weight: bold;
+	font-size: 2.71vw;
+	line-height: 4.5vw;
+}
+
+.pgf1 {
+    padding-left: 10vw;
+    padding-right: 1vw;
+}
+html {
+    scroll-behavior: smooth;
+}
+.HomeBar figure img{
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.HomeBar figure:hover img{
+	opacity: .8;
+}
+.pp figure {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.pp figure:hover{
+	-webkit-transform: scale(1.15);
+	transform: scale(1.15);
+}
+.ll figure {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.ll figure:hover{
+	-webkit-transform: scale(1.15);
+	transform: scale(1.15);
+}
+.mm figure {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.mm figure:hover{
+	-webkit-transform: scale(1.15);
+	transform: scale(1.15);
+}
+.kk figure {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.kk figure:hover{
+	-webkit-transform: scale(1.15);
+	transform: scale(1.15);
+}
+.hst figure {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hst figure:hover{
+	-webkit-transform: scale(1.15);
+	transform: scale(1.15);
+}
+.Vruber article{
+    background-color: white;
+}
+.copyright {
+	background-color: rgb(22, 34, 141);
+	width: 60.6vw;
+	height: 3vw;
+	margin: auto;
+	text-align: center;
+	line-height: 3vw;
+	color: white;
+	font-family: serif;
+}
